@@ -1,6 +1,6 @@
 
 #!/bin/bash
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/nasreddine/shell
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home
 
 #######################################################################
 # Version 0.5 DRBackup.sh
@@ -53,7 +53,7 @@ DRSTORE_FOLDER_REMOTE_PATH="/server/drstore/"
 BACKUP_LOG_FILE_NAME=$DATE"-dr-backup.log"
 LOG_VPN_CONNECTION_FILE_NAME="vpn-connection.log"
 DRSTORE_ARCHIVE_FOLDER=$DATE"/"
-DRSTORES_BACKUP_FOLDER_LOCAL_PATH=$HOME"/DRSTORES_BACKUP_ARAMYS/"
+DRSTORES_BACKUP_FOLDER_LOCAL_PATH=$HOME"/DRSTORES_BACKUP/"
 DRSTORE_FULL_LOCAL_PATH=${DRSTORES_BACKUP_FOLDER_LOCAL_PATH}${DRSTORE_ARCHIVE_FOLDER}
 
 # VPN IP address & internet Address
